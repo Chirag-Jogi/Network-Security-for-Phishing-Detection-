@@ -7,4 +7,9 @@ pymongo[srv]
 scikit-learn
 pyaml
 mlflow
+pyaml
+dagshub
+fastapi
+uvicorn
+python-multipart
 ##-e .

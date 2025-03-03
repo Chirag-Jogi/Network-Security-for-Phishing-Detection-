@@ -16,6 +16,7 @@ from networksecurity.pipeline.training_pipeline import TrainingPipeline
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI,File,UploadFile,Request
 from uvicorn import run as app_run
+import uvicorn
 from fastapi.responses import Response
 from starlette.responses import RedirectResponse
 import pandas as pd
@@ -76,4 +77,4 @@ async def predict_route(request:Request,file:UploadFile=File(...)):
 
 
 if __name__=="__main__":
-    app_run(app,host="0.0.0.0",port=8000)    
+    uvicorn.run(app,host="0.0.0.0",port=8080)    

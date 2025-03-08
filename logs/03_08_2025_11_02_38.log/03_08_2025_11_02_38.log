@@ -1,0 +1,6 @@
+[2025-03-08 11:02:42,458]1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-03-08 11:02:42,460]107 dagshub - INFO - Accessing as Chirag-Jogi
+[2025-03-08 11:02:42,977]1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Chirag-Jogi/networksecurity "HTTP/1.1 200 OK"
+[2025-03-08 11:02:43,365]1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-03-08 11:02:43,383]107 dagshub - INFO - Initialized MLflow to track repo "Chirag-Jogi/networksecurity"
+[2025-03-08 11:02:43,385]107 dagshub - INFO - Repository Chirag-Jogi/networksecurity initialized!

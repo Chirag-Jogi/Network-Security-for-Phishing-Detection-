@@ -13,5 +13,4 @@ fastapi
 dill
 uvicorn
 python-multipart
-gunicorn
 ##-e .
